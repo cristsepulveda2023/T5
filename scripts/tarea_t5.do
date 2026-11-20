@@ -186,14 +186,12 @@ display "Tabla exportada a `excel'"
 * ============================================================
 log close
 
-* Interpretación (60 personas; 55 con ingreso informado):
-*   En m1, un año más de educación se asocia a unos $42.019 más de ingreso
-*   mensual, con igual experiencia potencial (error estándar ~$6.393, muy preciso).
-*   En m2, al agregar el sexo, el coeficiente casi no cambia ($42.246): la
-*   asociación educación-ingreso no se explica por diferencias entre hombres y
-*   mujeres. Las mujeres ganan en promedio $55.686 menos, pero con un error
-*   estándar de $43.302 esa diferencia no se distingue de cero en esta muestra.
-*   Por sector, el coeficiente va de $23.783 (Construcción) a $42.713 (Industria),
-*   pero cada regresión usa entre 5 y 15 personas, así que son muy imprecisas.
-*   Limitación: son 60 personas y no observamos habilidad ni calidad de la
-*   educación, así que es una asociación y no un efecto causal.
+* Interpretación (55 personas con ingreso informado):
+*   En m1, un año más de educación se asocia a $42.019 más de ingreso mensual,
+*   con igual experiencia potencial (error estándar $6.393: bastante preciso).
+*   En m2, al agregar el sexo, el coeficiente casi no cambia ($42.246); las mujeres
+*   ganan $55.686 menos que hombres con igual educación y experiencia, pero con un
+*   error estándar de $43.302 esa diferencia no se distingue de cero.
+*   Por sector va de $23.783 (Construcción) a $42.713 (Industria), con solo 5 a 15
+*   personas por regresión: estimaciones muy imprecisas. Limitación: muestra chica y
+*   sin datos de habilidad, así que es una asociación, no un efecto causal.
